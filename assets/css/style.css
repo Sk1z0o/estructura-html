@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: cyan;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - (80px + 30px + 30px));
+}
+
+section {
+    color: white;
+    background-color: darkmagenta;
+    width: 70%;
+    padding: 5px 20px;
+}
+
+aside {
+    background-color: blueviolet;
+    width: 30%;
+}
+
+footer {
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
