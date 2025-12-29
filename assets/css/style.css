@@ -32,6 +32,10 @@ section {
     padding: 5px 20px;
 }
 
+section article {
+    font-weight: bolder;
+}
+
 aside {
     color: white;
     background-color: blueviolet;
@@ -45,4 +49,14 @@ footer {
     align-items: center;
     justify-content: center;
     height: 30px;
+}
+
+/*CLase de CSS */
+
+.verde {
+    color: green;
+}
+
+#articulo-1 {
+    color: yellow;
 }
